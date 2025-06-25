@@ -1,0 +1,20 @@
+<h3>{{ section.settings.my_text_input }}</h3>
+
+{% schema %}
+    {
+        "name": "test section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "my_text_input",
+                "label": "My Text Input",
+                "default": "enter your text here"
+            }
+        ],
+        "presets": [
+            {
+                "name": "my test section"
+            }
+        ]
+    }
+{% endschema %}
