@@ -91,6 +91,22 @@
           {%- endif -%}
         </div>
       </div>
+      {% if section.settings.show-order-number %}
+      <div class="field">
+        <input
+          type="text"
+          id="ContactForm-order-number"
+          class="field__input"
+          autocomplete="off"
+          name="contact[order_number]"
+          pattern="[A-Za-z0-9\-]*"
+          value="{% if form.order_number %}{{ form.order_number }}{% endif %}"
+          placeholder="Order Number"
+        >
+        <label class="field__label" for="ContactForm-order-number">Order Number</label>
+      </div>
+      {% endif %}
+      {% if section.settings.show-phone-number%}
       <div class="field">
         <input
           type="tel"
@@ -104,6 +120,7 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+      {% endif %}
       <div class="field">
         <textarea
           rows="10"
@@ -213,6 +230,18 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+        "type": "checkbox",
+        "id": "show-order-number",
+        "label": "Show order number field",
+        "default": false
+    },
+    {
+        "type": "checkbox",
+        "id": "show-phone-number",
+        "label": "Show phone number field",
+        "default": false
     }
   ],
   "presets": [
