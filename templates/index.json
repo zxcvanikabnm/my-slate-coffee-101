@@ -295,6 +295,18 @@
       "settings": {
         "my_text_input": "yes it works :)"
       }
+    },
+    "promotion_CehqTh": {
+      "type": "promotion",
+      "name": "promotion section",
+      "settings": {
+        "promotion_heading": "Get 20% off all sale items",
+        "promotion_addtl_text": "Use code EXTRA at checkout",
+        "promotion_button_label": "Shop now",
+        "promotion_button_link": "https://my-slate-coffee-101.myshopify.com/collections/on-sale",
+        "promotion_background_color": "#ffffff",
+        "promotion_text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -306,6 +318,7 @@
     "video",
     "collage_nT9g88",
     "multicolumn",
-    "my_test_section_gNUKd9"
+    "my_test_section_gNUKd9",
+    "promotion_CehqTh"
   ]
 }
