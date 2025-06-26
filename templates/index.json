@@ -116,6 +116,18 @@
         "padding_bottom": 36
       }
     },
+    "promotion_CehqTh": {
+      "type": "promotion",
+      "name": "promotion section",
+      "settings": {
+        "promotion_heading": "Get additional 20% off all sale items",
+        "promotion_addtl_text": "Use code EXTRA at checkout",
+        "promotion_button_label": "Shop now",
+        "promotion_button_link": "https://my-slate-coffee-101.myshopify.com/collections/on-sale",
+        "promotion_background_color": "#ffffff",
+        "promotion_text_color": "#000000"
+      }
+    },
     "featured_blog_CUnaph": {
       "type": "featured-blog",
       "name": "t:sections.featured-blog.presets.name",
@@ -288,24 +300,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "my_test_section_gNUKd9": {
-      "type": "my-test-section",
-      "name": "my test section",
-      "settings": {
-        "my_text_input": "yes it works :)"
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "featured_collection",
+    "promotion_CehqTh",
     "featured_blog_CUnaph",
     "image_with_text_xXqtnP",
     "video",
     "collage_nT9g88",
-    "multicolumn",
-    "my_test_section_gNUKd9"
+    "multicolumn"
   ]
 }
