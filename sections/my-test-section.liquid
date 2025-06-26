@@ -1,4 +1,8 @@
-<h3>{{ section.settings.my_text_input }}</h3>
+{{ 'component-my-first-section.css' | asset_url | stylesheet_tag }}
+
+<div class="my-first-section page-width section-{{ section.id }}-padding">
+    <h3>{{ section.settings.my_text_input }}</h3>
+</div>
 
 {% schema %}
     {
