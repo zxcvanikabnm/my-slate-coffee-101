@@ -1,0 +1,64 @@
+{{ 'component-promotion.css' | asset_url | stylesheet_tag }}
+
+<div 
+    class="promotion-section page-width section-{{ section.id }}-padding"
+    style="background-color: {{ section.settings.promotion_background_color }}; color: {{ section.settings.promotion_text_color }};">
+        <h3>{{ section.settings.promotion_heading }}</h3>
+        <p>{{ section.settings.promotion_addtl_text }}</p>
+        <a 
+            href="{{ section.settings.promotion_button_link }}" 
+            class="button" 
+            target="_blank" 
+            rel="noopener noreferrer">
+                {{ section.settings.promotion_button_label }}
+        </a>
+</div>
+
+{% schema %}
+    {
+        "name": "promotion section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "promotion_heading",
+                "label": "Heading",
+                "default": "enter your text here"
+            },
+            {
+                "type": "textarea",
+                "id": "promotion_addtl_text",
+                "label": "Additional Text",
+                "default": "enter your text here"
+            },
+            {
+                "type": "text",
+                "id": "promotion_button_label",
+                "label": "Button Label",
+                "default": "enter your text here"
+            },
+            {
+                "type": "text",
+                "id": "promotion_button_link",
+                "label": "Button Link",
+                "default": "enter your text here"
+            },
+            {
+                "type": "color",
+                "id": "promotion_background_color",
+                "label": "Background color",
+                "default": "#ffffff"
+            },
+            {
+                "type": "color",
+                "id": "promotion_text_color",
+                "label": "Text color",
+                "default": "#000000"
+            }
+        ],
+        "presets": [
+            {
+                "name": "promotion section"
+            }
+        ]
+    }
+{% endschema %}
