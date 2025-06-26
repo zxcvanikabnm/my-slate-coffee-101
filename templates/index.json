@@ -300,13 +300,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "my_test_section_gNUKd9": {
-      "type": "my-test-section",
-      "name": "my test section",
-      "settings": {
-        "my_text_input": "yes it works :)"
-      }
     }
   },
   "order": [
@@ -318,7 +311,6 @@
     "image_with_text_xXqtnP",
     "video",
     "collage_nT9g88",
-    "multicolumn",
-    "my_test_section_gNUKd9"
+    "multicolumn"
   ]
 }
