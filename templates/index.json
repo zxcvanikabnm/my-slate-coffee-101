@@ -307,6 +307,18 @@
         "promotion_background_color": "#ffffff",
         "promotion_text_color": "#000000"
       }
+    },
+    "promotion_HdAznm": {
+      "type": "promotion",
+      "name": "promotion section",
+      "settings": {
+        "promotion_heading": "Get 10% off regular priced items",
+        "promotion_addtl_text": "Use code TODAYONLY at checkout",
+        "promotion_button_label": "enter your text here",
+        "promotion_button_link": "enter your text here",
+        "promotion_background_color": "#ffffff",
+        "promotion_text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -319,6 +331,7 @@
     "collage_nT9g88",
     "multicolumn",
     "my_test_section_gNUKd9",
-    "promotion_CehqTh"
+    "promotion_CehqTh",
+    "promotion_HdAznm"
   ]
 }
