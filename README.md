@@ -17,7 +17,7 @@ A custom Shopify theme built for a fictional specialty coffee brand, **My Slate 
 
 - Shopify Liquid
 - Shopify CLI
-- JavaScript (ES6+)
+- JavaScript
 - JSON templates
 - Dawn Theme (customized)
 
